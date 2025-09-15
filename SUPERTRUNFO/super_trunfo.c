@@ -5,7 +5,7 @@ int main() {
     char estado1;
     char codigo1[4];
     char nomeCidade1[50];
-    unsigned long int populacao1;  // ajustado para unsigned long int
+    unsigned long int populacao1; 
     float area1;
     float pib1;
     int pontosTuristicos1;
