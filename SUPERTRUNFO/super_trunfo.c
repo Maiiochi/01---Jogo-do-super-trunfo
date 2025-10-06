@@ -36,7 +36,6 @@ int main() {
 
     densidade1 = (float)populacao1 / area1;
     pibcapita1 = (pib1 * 1000000.0f) / populacao1;
-    superPoder1 = (float)populacao1 + area1 + pib1 + pontosTuristicos1 + pibcapita1 + (1.0f / densidade1);
 
     // --- CARTA 2 ---
     char estado2;
@@ -73,7 +72,6 @@ int main() {
 
     densidade2 = (float)populacao2 / area2;
     pibcapita2 = (pib2 * 1000000.0f) / populacao2;
-    superPoder2 = (float)populacao2 + area2 + pib2 + pontosTuristicos2 + pibcapita2 + (1.0f / densidade2);
 
     // --- Exibição dos dados ---
     printf("\n----CARTA 1----\n");
